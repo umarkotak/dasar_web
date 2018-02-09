@@ -1,0 +1,40 @@
+#include<iostream.h>
+main()
+{
+ int a,b,c,d,batas;
+ cout<<"Masukkan Batas Baris : ";cin>>batas;
+
+ for(a=1;a<batas;a++)
+ {
+  for(b=batas;b>=a;b--)
+  {
+	cout<<" ";
+  }
+  for(c=1;c<=a;c++)
+  {
+	cout<<"*";
+  }
+  for(d=2;d<=a;d++)
+  {
+	cout<<"*";
+  }
+  cout<<endl;
+ }
+ //wew
+ for(a=batas;a>=1;a--)
+ {
+  for(b=batas;b>=a;b--)
+  {
+	cout<<" ";
+  }
+  for(c=1;c<=a;c++)
+  {
+	cout<<"*";
+  }
+  for(d=2;d<=a;d++)
+  {
+	cout<<"*";
+  }
+  cout<<endl;
+ }
+}
